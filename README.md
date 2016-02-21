@@ -27,7 +27,7 @@ $ npm run apidocs
 To deploy API docs:
 
 ```
-$ npm run apidocs-deploy
+$ SURGE_LOGIN=... SURGE_TOKEN=... npm run apidocs-deploy
 ```
 
 To run the demo web app:
