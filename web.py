@@ -1,6 +1,6 @@
-import os
 import random
 import uuid
+
 import bottle
 
 
@@ -12,4 +12,4 @@ def get_random_number():
     }
 
 
-bottle.run(host='0.0.0.0', port=int(os.environ.get('PORT', 5000)))
+app = bottle.app()
