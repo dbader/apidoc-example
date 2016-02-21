@@ -13,7 +13,7 @@ Thanks [apiDoc](http://apidocjs.com/), [Travis CI](https://travis-ci.org/), and 
 ## How does this work?
 
 * Pushing to master deploys a [Heroku app providing the API](https://apidoc-example.herokuapp.com/api/v1/random/)
-* [Travis CI] builds the project, generates API docs with apiDoc and publishes them to [apidoc-example.surge.sh](http://apidoc-example.surge.sh/)
+* [Travis CI]([travis-url]) builds the project, generates API docs with apiDoc and publishes them to [apidoc-example.surge.sh](http://apidoc-example.surge.sh/)
 
 ## Running this locally
 
