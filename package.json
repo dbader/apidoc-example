@@ -4,7 +4,7 @@
     "surge": "0.17.7"
   },
   "scripts": {
-    "apidocs": "apidoc -i ./ -o ./apidocs/",
+    "apidocs": "apidoc -i ./app/ -o ./apidocs/",
     "apidocs-deploy": "surge -p ./apidocs/ -d apidoc-example.surge.sh"
   }
 }
