@@ -1,0 +1,10 @@
+{
+  "name": "apidoc-example",
+  "version": "0.0.1",
+  "description": "apidoc-example API docs",
+  "title": "apidoc-example API",
+  "url" : "https://apidoc-example.herokuapp.com/api",
+  "header": {
+    "filename": "apidocs-header.md"
+  }
+}

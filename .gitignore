@@ -62,4 +62,5 @@ target/
 .ipynb_checkpoints
 
 node_modules/
-venv
+venv/
+apidocs/
