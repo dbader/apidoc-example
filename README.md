@@ -8,6 +8,8 @@ them to a public website.
 
 Thanks [apiDoc](http://apidocjs.com/), [Travis CI](https://travis-ci.org/), and [Surge](https://surge.sh) for making this possible (for free) :smiley:.
 
+![Example Screenshot](screenshot.png "")
+
 ## How does this work?
 
 * Pushing to master deploys a [Heroku app providing the API](https://apidoc-example.herokuapp.com/api/v1/random/)
