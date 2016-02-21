@@ -8,6 +8,11 @@ app = bottle.app()
 
 @app.hook('after_request')
 def enable_cors():
+    """
+    Set CORS headers.
+    You may not want to use the wildcard '*' for Access-Control-Allow-Origin
+    in production.
+    """
     headers = bottle.response.headers
     headers['Access-Control-Allow-Origin'] = '*'
     headers['Access-Control-Allow-Methods'] = 'OPTIONS, GET'
@@ -21,15 +26,15 @@ def get_random_number():
     @apiName GetRandomNumber
     @apiGroup Random
 
-    @apiDescription The description
-
-    @apiSampleRequest https://apidoc-example.herokuapp.com/api
-
-    @apiExample HTTPie example
-    http GET localhost:5000/v1/random/
+    @apiDescription Generates a random number in the range `[0.0, 1.0)`.
 
     @apiSuccess (Success 200) {UUID}   request_id Unique id for the request
-    @apiSuccess (Success 200) {Number} results    A random number
+    @apiSuccess (Success 200) {Number} results    Random number in `[0.0, 1.0)`
+
+    @apiSampleRequest /v1/random/
+
+    @apiExample cURL example
+    $ curl https://apidoc-example.herokuapp.com/api/v1/random/
 
     @apiSuccessExample {js} Success-Response:
         HTTP/1.0 200 OK

@@ -64,3 +64,4 @@ target/
 node_modules/
 venv/
 apidocs/
+.DS_Store
