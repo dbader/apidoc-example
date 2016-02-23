@@ -12,8 +12,8 @@ Thanks [apiDoc](http://apidocjs.com/), [Travis CI](https://travis-ci.org/), and 
 
 ## How does this work?
 
-* Pushing to master deploys a [Heroku app providing the API](https://apidoc-example.herokuapp.com/api/v1/random/)
-* [Travis CI]([travis-url]) builds the project, generates API docs with apiDoc and publishes them to [apidoc-example.surge.sh](http://apidoc-example.surge.sh/)
+* Pushing to master deploys a [Heroku app providing the API][api-url]
+* [Travis CI][travis-url] builds the project, generates API docs with apiDoc and publishes them to [apidoc-example.surge.sh][api-docs-url]
 
 ## Running this locally
 
@@ -45,5 +45,8 @@ Distributed under the Unlicense license. See ``LICENSE`` for more information.
 
 [https://github.com/dbader/apidoc-example](https://github.com/dbader/)
 
+
 [travis-image]: https://img.shields.io/travis/dbader/apidoc-example/master.svg?style=flat-square
-[travis-url]: https://travis-ci.org/dbader/apidoc-example
+[travis-url]:   https://travis-ci.org/dbader/apidoc-example
+[api-url]:      https://apidoc-example.herokuapp.com/api/v1/random/
+[api-docs-url]: http://apidoc-example.surge.sh/
