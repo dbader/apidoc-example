@@ -10,5 +10,8 @@ install:
 script:
     - npm run apidocs
 
-after_success:
-    - npm run apidocs-deploy
+deploy:
+    provider: script
+    script: npm run apidocs-deploy
+    on:
+        branch: master
