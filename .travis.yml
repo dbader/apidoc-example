@@ -13,5 +13,6 @@ script:
 deploy:
     provider: script
     script: npm run apidocs-deploy
+    skip_cleanup: true
     on:
         branch: master
